@@ -7,19 +7,34 @@ body{
 .footer{
   background-color: turquoise;
 }
+ul li{
+  list-style: none;
+}
+
+
 #repoList{
   display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     top: 200px;
 }
+ 
 #skills{
   display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     top: 200px;
-    right: 20.5%;
+    /* right: 20.5%; */
 }
 #email{
   position: absolute;
   right: 45%;
   bottom: 2em;
+}
+
+#email a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.footer img{
+  cursor: pointer;
 }
