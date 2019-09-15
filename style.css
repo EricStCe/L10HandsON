@@ -1,0 +1,25 @@
+/* purple turquoise  */
+body{
+  background-color: black;
+  font-family: 'Crimson Text', serif;
+  letter-spacing: 3px !important;
+}
+.footer{
+  background-color: turquoise;
+}
+#repoList{
+  display: inline-block;
+    position: absolute;
+    top: 200px;
+}
+#skills{
+  display: inline-block;
+    position: absolute;
+    top: 200px;
+    right: 20.5%;
+}
+#email{
+  position: absolute;
+  right: 45%;
+  bottom: 2em;
+}
